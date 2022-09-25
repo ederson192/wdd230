@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) {
+
+
+    main.home-grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    section.website3 {
+        grid-column: span 2;
+        margin: 10px 10px;
+    }
+
+}

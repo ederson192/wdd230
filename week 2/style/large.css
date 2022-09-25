@@ -1,0 +1,17 @@
+@media (min-width: 60em) {
+
+
+
+    main.home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        padding: 15px;
+        
+    }
+
+
+    section.website3 {
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,42 @@
+:root {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+header, footer {
+    max-width: 75em;
+    margin : 0 auto;
+    text-align: center;
+    padding: 2.5rem;
+    background-color: rgb(6, 6, 26);
+    color: white;
+}
+main.home-grid {
+   
+    margin: 10px 10px;
+    display: grid;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+
+section {
+    border: solid black 1px;
+    border-radius: 6px;
+    background-color: gainsboro;
+    margin: 10px 10px;
+
+}
+
+img {
+    width: 90%;
+}
+
+h2 {
+    background-color: rgb(6, 6, 26);
+    color: white;
+    font-weight: bold;
+    padding:  0.6rem;
+    border-radius: 5px 5px 0 0;
+    margin: -1px;
+}

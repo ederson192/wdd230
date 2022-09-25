@@ -1,0 +1,22 @@
+@media (min-width: 32.5em) {
+
+
+    header, footer {
+        background-color: orange;
+        border-radius: 15px;
+    
+    }
+    
+    
+
+    h1, h3 {
+        color : black;
+    }
+
+
+
+    h2 {
+        text-shadow: 1px 1px 10px orange;
+ 
+    }
+}
