@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap');
+
+:root {
+
+  --primary-color: #FFFFFF;
+  --secondary-color: #00171F ;
+  --accent1-color: #003459;
+  --accent2-color: #007EA7;
+
+  --heading-font: "Medium 500";
+  --paragraph-font: "Light 300 Italic";
+
+
+  --headline-color-on-white: #396E94; 
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: #396E94; 
+  --paragraph-color-on-color: white;  
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #00171F;
+  --nav-background-color: #007EA7;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+
+
+
+header {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+}
+
+header #logo {
+    width: 25%;
+    position: absolute;
+    
+    left: 5rem;
+}
+
+
+
+header #nav {
+    font-family: var(--heading-font);
+    color: white;
+    font-size: 1.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+header #pages {
+    list-style: none;
+    display: none;
+    gap: 1rem;
+}
+
+header #pages li a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+header #pages li a:hover {
+    color: var(--ac);
+    transition: .2s ease-out;
+}
+
+header #social {
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+header #social .icon {
+    width: 2.2rem;
+}
+
+header #menu {
+    margin-top: -.3rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 46px;
+    display: block
+}
+
+header #nav.open {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+header #pages.open {
+    display: flex;
+    margin-top: 1rem;
+}
+
+header #currentDate {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 8px 12px 0px 0px;
+    margin: auto;
+    font-family: var(--heading-font);
+    color: white;
+    position: relative;
+    top: 1rem;
+}
+
+#mainboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 350px);
+    gap: .5rem;
+    font-family: var(--paragraph-font);
+    color: #1D366F;
+    padding: 2rem;
+}
+
+#mainboxes .mainbox {
+    background-color: gray;
+    padding: 1rem;
+}
+
+#mainboxes #heroSection {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#mainboxes #eventSection {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+#mainboxes #weatherSection {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+#mainboxes #newsSection {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+#mainboxes #spotSection {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+}
+
+#mainboxes #joinSection {
+    display: none;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+footer #footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    font-family: var(--inter-font);
+    color: white;
+    gap: 2rem;
+}
+
+footer #footer1 #logo {
+    width: 25%;
+}
+
+footer #footer2 {
+    text-align: center;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    margin-top: 3rem;
+}
+
+footer #footer1 #info {
+    text-align: center;
+}
+
+footer #footer2 #info :nth-child(2) {
+    margin-top: 1.5rem;
+}
