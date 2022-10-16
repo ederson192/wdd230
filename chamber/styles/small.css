@@ -1,6 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 :root {
 
   --primary-color: #FFFFFF;
@@ -30,28 +37,46 @@ header {
     padding: 1rem;
 }
 
-header #logo {
+ul {
+    list-style: none;
+}
+
+/* header #logo {
     width: 25%;
     position: absolute;
     
     left: 5rem;
-}
+} */
 
+/* .logo-cnt {
 
+} */
 
 header #nav {
     font-family: var(--heading-font);
     color: white;
     font-size: 1.125rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    justify-items: center;
+    /* justify-content: space-between;
     align-items: center;
-    padding-right: 5rem;
+ */
 }
 
-header #pages {
+.logo-cnt {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-cnt img{
+    width: 100%;
+}
+
+header #pages > .pages-options {
     list-style: none;
     display: none;
     gap: 1rem;
@@ -78,6 +103,10 @@ header #social {
 header #social .icon {
     width: 2.2rem;
 }
+#menu,
+#social {
+    grid-row: 2 / 3;
+}
 
 header #menu {
     margin-top: -.3rem;
@@ -85,7 +114,8 @@ header #menu {
     border: none;
     color: white;
     height: 46px;
-    display: block
+    display: block;
+    grid-row: 2 / 3;
 }
 
 header #nav.open {
@@ -128,6 +158,12 @@ header #currentDate {
 #mainboxes #heroSection {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+}
+
+#mainboxes #heroSection picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #mainboxes #eventSection {

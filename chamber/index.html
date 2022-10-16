@@ -13,13 +13,18 @@
 <body>
     <header>
         <nav id="nav" class="open">
-            <img id= "logo" src="images/logo_mtl.png" alt="Company logo">
+            <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
             <ul id="pages" class="open">
-                <li>Discover</li>
-                <li>Directory</li>
-                <li>Join</li>
-                <li>Contact</li>
-            </ul> 
+                <li><button id="menu">#</button></li>
+                <li class="pages-options">
+                    <ul>
+                        <li>Discover</li>
+                        <li>Directory</li>
+                        <li>Join</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+            </ul>
 
             <ul id="social" class="open">
                 <li>
@@ -28,7 +33,6 @@
                 <li>
                     <img class="icon" src="images/facebook.png" alt="facebook">
                 </li>
-                <button id="menu">#</button>
             </ul>
 
         </nav>
@@ -37,11 +41,22 @@
     </header>
 
     <main id="mainboxes">
-        <section class="mainbox" id="heroSection">Hero with site name and call to action</section>
+        <section class="mainbox" id="heroSection">
+            <picture>
+            <img src="images/commerce.png" alt="commerce in Montreal">  
+            </picture>
+        </section>
         <section class="mainbox" id="eventSection">Event</section>
         <section class="mainbox" id="weatherSection">Weather</section>
-        <section class="mainbox" id="joinSection">Join</section>
-        <section class="mainbox" id="newsSection">News Release</section>
+        <section class="mainbox" id="joinSection">
+            <button class="joinus">Join us!</button>
+            <p>Discover how to join thr chamber of commerce and how it will benefit your organization</p>
+        </section>
+        <section class="mainbox" id="newsSection">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum molestias similique laborum aliquid quaerat impedit accusantium iste! 
+                Iure tenetur perspiciatis nesciunt delectus, corporis sit aut repudiandae nisi ad, molestiae maxime?</p>
+        </section>
         <section class="mainbox" id="spotSection">
             <div id="spotlight1">Spotlight 1</div>
             <div id="spotlight2">Spotlight 2</div>
