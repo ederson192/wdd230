@@ -43,11 +43,35 @@
     <main id="mainboxes">
         <section class="mainbox" id="heroSection">
             <picture>
-            <img src="images/commerce.png" alt="commerce in Montreal">  
+            <img src="images/wdd230-org.jpg" alt="commerce in Montreal">  
             </picture>
         </section>
         <section class="mainbox" id="eventSection">Event</section>
-        <section class="mainbox" id="weatherSection">Weather</section>
+        <section class="mainbox" id="weatherSection">
+            <h2>Weather</h2>
+            <div class="temperature"> 
+                <img src="images/weather.png" alt="weather logo" width="80">
+                <p>
+                   <span class="degrees"></span>
+                </p>
+            </div>
+
+            <div class="windspeed">
+                <p>wind speed</p>
+                <p>
+                    <span class="speed">5</span> 
+                    km/h
+                </p>
+                <p>Wind chill</p>
+                <p>
+    
+                    <span class="wind">49.6</span>
+                </p>
+            
+            </div>
+
+        </section>
+
         <section class="mainbox" id="joinSection">
             <button class="joinus">Join us!</button>
             <p>Discover how to join thr chamber of commerce and how it will benefit your organization</p>
@@ -82,6 +106,7 @@
     </footer>
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 
 </body>
 </html>
