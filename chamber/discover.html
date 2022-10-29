@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Discover Montreal</title>
+</head>
+
+
+
+<body>
+    <header>
+        <nav id="nav" class="open">
+            <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
+            <ul id="pages" class="open">
+                <li><button id="menu">#</button></li>
+                <li class="pages-options">
+                    <ul>
+                        <li>Discover</li>
+                        <li>Directory</li>
+                        <li>Join</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul id="social" class="open">
+                <li>
+                    <img class="icon" src="images/twitter.png" alt="twitter">
+                </li>
+                <li>
+                    <img class="icon" src="images/facebook.png" alt="facebook">
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="currentDate"></div>
+    </header>
+
+    <main class="discover">
+        <section>
+            <h2>Demographics of Montreal</h2>
+            <ul>
+                <li>1) Some 34.2% of the population of Montreal and 22.6% that of Greater Montreal, are members of a visible minority (non-white) group. Blacks contribute to the largest minority group, 
+                    with Montreal having the 2nd highest number of black people in Canada after Toronto, as well as having the highest concentrations of black people amongst major Canadian cities. Other groups, 
+                    such as Arabs, Latin Americans, South Asians, and Chinese are also large in number. Visible minorities are defined by the Canadian Employment Equity Act as "persons, other than Aboriginals, who are non-Caucasian in race or non-white in colour"</li>
+                <li>2) Montreal is the cultural centre of Quebec, French-speaking Canada and French-speaking North America as a whole, and an important city in the Francophonie. The majority of the population is francophone. Montreal is the largest French-speaking city in North America, and second in the world after Paris </li>
+                <li>3) The Greater Montreal Area is predominantly Roman Catholic; however, weekly church attendance in Quebec is among the lowest in Canada</li>
+            </ul>
+
+        </section>
+        
+
+        <section>
+            <h2>Visit Montreal</h2>
+            <picture>
+                <img src ='images/placeholder.jpg'    data-src="images/1.png" alt="Montreal1" loading = 'lazy'>
+                <p>Discover Montreal in the winter</p>
+                
+            </picture>
+            <picture>
+                <img src ='images/placeholder.jpg' data-src="images/2.png" alt="Montreal2" loading = 'lazy'>
+                <p>View of Montreal from the waterfront</p>
+          
+            </picture>
+
+            <picture>
+                <img src ='images/placeholder.jpg' data-src="images/3.png" alt="Montreal3" loading = 'lazy'>
+                <p> Montreal in the fall has pretty colours and awesome weather</p>
+
+            </picture>
+
+            <picture>
+                <img src ='images/placeholder.jpg' data-src="images/4.webp" alt="Montreal4" loading = 'lazy'>
+                <p>View of Downton from the Biodome and Zoo</p>
+            </picture>
+        </section>
+        
+    </main>
+
+
+    <footer>
+        <section id="footer1">
+            <img id="logo" src="images/logo_mtl.png" alt="Company Logo">
+            <div id="Info">
+                <div id="adress">7340 13e av - Quebec, Canada</div>
+                <div id="map">📍Location Map</div>
+            </div>
+        </section>
+
+        <section id="footer2">
+            ⓒ<span id="year"></span>
+            Montreal Chamber | Ederson Alejandro | WDD 230 Project | Last Modification: <span id="lastModified"></span>
+        </section>
+
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

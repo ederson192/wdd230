@@ -237,3 +237,27 @@ footer #footer1 #info {
 footer #footer2 #info :nth-child(2) {
     margin-top: 1.5rem;
 }
+
+.discover {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    grid-template-rows: (2, 2fr);
+    margin: 0 auto;
+    padding: 2;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%);
+}
+
+.discover img {
+    width: 400px;
+    height: auto;
+   
+}
+
+.discover img:hover{
+    box-shadow: 0 0 50px #333;
+}
