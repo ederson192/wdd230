@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/small.css">
+	<link rel="stylesheet" href="styles/medium.css">
+	<link rel="stylesheet" href="styles/large.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<title>Discover Montreal</title>
+</head>
+
+<body>
+	<header>
+		<nav id="nav" class="open">
+			<a href="./index.html">
+				<div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
+			</a>
+
+			<div class="options">
+				<ul id="social" class="open">
+					<li>
+						<a href="https://twitter.com" target="_blank"><img class="icon" src="images/twitter.png"
+								alt="twitter"></a>
+						<a href="https://facebook.com" target="_blank"><img class="icon" src="images/facebook.png"
+								alt="facebook"></a>
+					</li>
+					<li class="burguer"><img id="menu" src="./images/bars-solid.svg" alt="asd"></li>
+				</ul>
+
+				<ul class="menu-options">
+					<li id="pages" class="pages-options">
+						<ul>
+							<li><a href="discover.html">Discover</a></li>
+							<li>Directory</li>
+							<li><a href="join.html">Join</a></li>
+							<li>Contact</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+
+		<div id="currentDate"></div>
+	</header>
+
+	<main id="main-join-container">
+		<form id="join-form" method="get" action="thankyou.html">
+			<fieldset>
+				<legend>User information</legend>
+				<label class="join_form__label">First Name<span class="red">*</span> <input type="text" name="fname"
+						autofocus="" required=""></label>
+				<label class="join_form__label">Last Name<span class="red">*</span> <input type="text" name="lname"
+						required=""></label>
+				<label class="join_form__label">Position <input type="text" name="position"></label>
+				<label class="join_form__label">Email<span class="red">*</span> <input type="email" name="email"
+						placeholder="test@yahoo.com" required=""></label>
+				<label class="join_form__label">Phone Number<span class="red">*</span> <input type="tel" name="tel"
+						required=""></label>
+				<label class="join_form__label">Business Name<span class="red">*</span> <input type="text"
+						name="business" required=""></label>
+			</fieldset>
+			<fieldset>
+				<legend>Membership</legend>
+				<label class="join_form__member-label"><input type="radio" name="membership" value="npmember"> NP
+					Membership</label>
+				<label class="join_form__member-label"><input type="radio" name="membership" value="bronzemember">
+					Bronze Membership</label>
+				<label class="join_form__member-label"><input type="radio" name="membership" value="silvermember">
+					Silver Membership</label>
+				<label class="join_form__member-label"><input type="radio" name="membership" value="goldmember"> Gold
+					Membership</label>
+				<input type="hidden" name="date-and-time">
+			</fieldset>
+			<fieldset>
+				<legend>Company Description</legend>
+
+				<label class="join_form__label">Business Description <textarea name="business-desc" cols="30"
+						rows="10"></textarea></label>
+			</fieldset>
+			<input type="submit" value="Join the Chamber">
+		</form>
+		<aside id="plans-container">
+			<div class="plans-container__div">
+				<h2>NP Membership</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo sed velit a ullam amet totam
+					delectus, reprehenderit quidem laborum harum saepe nulla. Tenetur nobis vitae sint nam, cum nemo!
+				</p>
+				<p>Price:</p>
+				<p class="plans-container__div-p">Free*</p>
+			</div>
+			<div class="plans-container__div">
+				<h2>Bronze Membership</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo sed velit a ullam amet totam
+					delectus, reprehenderit quidem laborum harum saepe nulla. Tenetur nobis vitae sint nam, cum nemo!
+				</p>
+				<p>Price:</p>
+				<p class="plans-container__div-p">$ 39.90</p>
+
+			</div>
+			<div class="plans-container__div">
+				<h2>Silver Membership</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo sed velit a ullam amet totam
+					delectus, reprehenderit quidem laborum harum saepe nulla. Tenetur nobis vitae sint nam, cum nemo!
+				</p>
+				<p>Price:</p>
+				<p class="plans-container__div-p">$ 69.90</p>
+
+			</div>
+			<div class="plans-container__div">
+				<h2>Gold Membership</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo sed velit a ullam amet totam
+					delectus, reprehenderit quidem laborum harum saepe nulla. Tenetur nobis vitae sint nam, cum nemo!
+				</p>
+				<p>Price:</p>
+				<p class="plans-container__div-p">$ 99.90</p>
+
+			</div>
+
+		</aside>
+	</main>
+
+	<footer>
+		<section id="footer1">
+			<img id="logo" src="images/logo_mtl.png" alt="Company Logo">
+			<div id="info">
+				<div id="adress">7340 13e av - Quebec, Canada</div>
+				<br>
+				<div id="map"><iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178787.32659260163!2d-73.85195575187622!3d45.55933749041145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20Quebec%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2spe!4v1667717129567!5m2!1ses-419!2spe"
+						width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			</div>
+		</section>
+
+		<section id="footer2">
+			ⓒ<span id="year"></span>
+			Montreal Chamber | Ederson Alejandro | WDD 230 Project | Last Modification: <span id="lastModified"></span>
+		</section>
+
+	</footer>
+
+	<script src="scripts/main.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 function toggleMenu() {
     document.querySelector("#nav").classList.toggle("open")
+    document.querySelector("#menu").classList.toggle("open")
     document.querySelector("#pages").classList.toggle("open")
     document.querySelector("#social").classList.toggle("open")
 }

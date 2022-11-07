@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,27 +17,32 @@
 <body>
     <header>
         <nav id="nav" class="open">
-            <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
-            <ul id="pages" class="open">
-                <li><button id="menu">#</button></li>
-                <li class="pages-options">
-                    <ul>
-                        <li>Discover</li>
-                        <li>Directory</li>
-                        <li>Join</li>
-                        <li>Contact</li>
-                    </ul>
-                </li>
-            </ul>
+            <a href="./index.html">
+                <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
+            </a>
 
-            <ul id="social" class="open">
-                <li>
-                    <img class="icon" src="images/twitter.png" alt="twitter">
-                </li>
-                <li>
-                    <img class="icon" src="images/facebook.png" alt="facebook">
-                </li>
-            </ul>
+            <div class="options">
+                <ul id="social" class="open">
+                    <li>
+                        <a href="https://twitter.com" target="_blank"><img class="icon" src="images/twitter.png"
+                                alt="twitter"></a>
+                        <a href="https://facebook.com" target="_blank"><img class="icon" src="images/facebook.png"
+                                alt="facebook"></a>
+                    </li>
+                    <li class="burguer"><img id="menu" src="./images/bars-solid.svg" alt="asd"></li>
+                </ul>
+
+                <ul class="menu-options">
+                    <li id="pages" class="pages-options">
+                        <ul>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li>Directory</li>
+                            <li><a href="join.html">Join</a></li>
+                            <li>Contact</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
         </nav>
 
@@ -47,50 +53,62 @@
         <section>
             <h2>Demographics of Montreal</h2>
             <ul>
-                <li>1) Some 34.2% of the population of Montreal and 22.6% that of Greater Montreal, are members of a visible minority (non-white) group. Blacks contribute to the largest minority group, 
-                    with Montreal having the 2nd highest number of black people in Canada after Toronto, as well as having the highest concentrations of black people amongst major Canadian cities. Other groups, 
-                    such as Arabs, Latin Americans, South Asians, and Chinese are also large in number. Visible minorities are defined by the Canadian Employment Equity Act as "persons, other than Aboriginals, who are non-Caucasian in race or non-white in colour"</li>
-                <li>2) Montreal is the cultural centre of Quebec, French-speaking Canada and French-speaking North America as a whole, and an important city in the Francophonie. The majority of the population is francophone. Montreal is the largest French-speaking city in North America, and second in the world after Paris </li>
-                <li>3) The Greater Montreal Area is predominantly Roman Catholic; however, weekly church attendance in Quebec is among the lowest in Canada</li>
+                <li>1) Some 34.2% of the population of Montreal and 22.6% that of Greater Montreal, are members of a
+                    visible minority (non-white) group. Blacks contribute to the largest minority group,
+                    with Montreal having the 2nd highest number of black people in Canada after Toronto, as well as
+                    having the highest concentrations of black people amongst major Canadian cities. Other groups,
+                    such as Arabs, Latin Americans, South Asians, and Chinese are also large in number. Visible
+                    minorities are defined by the Canadian Employment Equity Act as "persons, other than Aboriginals,
+                    who are non-Caucasian in race or non-white in colour"</li>
+                <li>2) Montreal is the cultural centre of Quebec, French-speaking Canada and French-speaking North
+                    America as a whole, and an important city in the Francophonie. The majority of the population is
+                    francophone. Montreal is the largest French-speaking city in North America, and second in the world
+                    after Paris </li>
+                <li>3) The Greater Montreal Area is predominantly Roman Catholic; however, weekly church attendance in
+                    Quebec is among the lowest in Canada</li>
             </ul>
 
         </section>
-        
+
 
         <section>
             <h2>Visit Montreal</h2>
             <picture>
-                <img src ='images/placeholder.jpg'    data-src="images/1.png" alt="Montreal1" loading = 'lazy'>
+                <img src='images/placeholder.jpg' data-src="images/1.png" alt="Montreal1" loading='lazy'>
                 <p>Discover Montreal in the winter</p>
-                
+
             </picture>
             <picture>
-                <img src ='images/placeholder.jpg' data-src="images/2.png" alt="Montreal2" loading = 'lazy'>
+                <img src='images/placeholder.jpg' data-src="images/2.png" alt="Montreal2" loading='lazy'>
                 <p>View of Montreal from the waterfront</p>
-          
+
             </picture>
 
             <picture>
-                <img src ='images/placeholder.jpg' data-src="images/3.png" alt="Montreal3" loading = 'lazy'>
+                <img src='images/placeholder.jpg' data-src="images/3.png" alt="Montreal3" loading='lazy'>
                 <p> Montreal in the fall has pretty colours and awesome weather</p>
 
             </picture>
 
             <picture>
-                <img src ='images/placeholder.jpg' data-src="images/4.webp" alt="Montreal4" loading = 'lazy'>
+                <img src='images/placeholder.jpg' data-src="images/4.webp" alt="Montreal4" loading='lazy'>
                 <p>View of Downton from the Biodome and Zoo</p>
             </picture>
         </section>
-        
+
     </main>
 
 
     <footer>
         <section id="footer1">
             <img id="logo" src="images/logo_mtl.png" alt="Company Logo">
-            <div id="Info">
+            <div id="info">
                 <div id="adress">7340 13e av - Quebec, Canada</div>
-                <div id="map">📍Location Map</div>
+                <br>
+                <div id="map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178787.32659260163!2d-73.85195575187622!3d45.55933749041145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20Quebec%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2spe!4v1667717129567!5m2!1ses-419!2spe"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
         </section>
 
@@ -104,4 +122,5 @@
     <script src="scripts/main.js"></script>
     <script src="scripts/script.js"></script>
 </body>
+
 </html>

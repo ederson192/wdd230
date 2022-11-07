@@ -13,27 +13,28 @@
 <body>
     <header>
         <nav id="nav" class="open">
-            <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
-            <ul id="pages" class="open">
-                <li><button id="menu">#</button></li>
-                <li class="pages-options">
-                    <ul>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li>Directory</li>
-                        <li>Join</li>
-                        <li>Contact</li>
-                    </ul>
-                </li>
-            </ul>
+            <a href="#"><div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div></a>
 
-            <ul id="social" class="open">
-                <li>
-                    <img class="icon" src="images/twitter.png" alt="twitter">
-                </li>
-                <li>
-                    <img class="icon" src="images/facebook.png" alt="facebook">
-                </li>
-            </ul>
+            <div class="options">
+                <ul id="social" class="open">
+                    <li >
+                        <a href="https://twitter.com" target="_blank"><img class="icon" src="images/twitter.png" alt="twitter"></a>
+                        <a href="https://facebook.com" target="_blank"><img class="icon" src="images/facebook.png" alt="facebook"></a>
+                    </li>
+                    <li class="burguer"><img id="menu" src="./images/bars-solid.svg" alt="asd"></li>
+                </ul>
+                
+                <ul class="menu-options">
+                    <li id="pages" class="pages-options">
+                        <ul >
+                            <li><a href="discover.html">Discover</a></li>
+                            <li>Directory</li>
+                            <li><a href="join.html">Join</a></li>
+                            <li>Contact</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
         </nav>
 
@@ -41,12 +42,25 @@
     </header>
 
     <main id="mainboxes">
+        <!-- Hero -->
         <section class="mainbox" id="heroSection">
-            <picture>
-            <img src="images/wdd230-org.jpg" alt="commerce in Montreal">  
-            </picture>
+            <h2>The Chamber of Commerce of Montreal</h2>
+            <!-- <picture>
+            <img src="https://picsum.photos/400" alt="commerce in Montreal">  
+            </picture> -->
         </section>
-        <section class="mainbox" id="eventSection">Event</section>
+
+        <!-- Event Section -->
+        <section class="mainbox" id="eventSection">
+            
+            <h2>Ribbon Cutting</h2>
+            <h4>The Diamond Shack</h4>
+
+            <p>Join us for the grand opening of the Diamond Shack, Thursday at 1:00pm <a href="#">more info...</a></p>
+
+        </section>
+
+
         <section class="mainbox" id="weatherSection">
             <h2>Weather</h2>
             <div class="temperature"> 
@@ -72,19 +86,22 @@
 
         </section>
 
+        <!-- JOIN -->
         <section class="mainbox" id="joinSection">
-            <button class="joinus">Join us!</button>
             <p>Discover how to join thr chamber of commerce and how it will benefit your organization</p>
+            <button class="joinus">Join us!</button>
         </section>
         <section class="mainbox" id="newsSection">
             <h2>News Release</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum molestias similique laborum aliquid quaerat impedit accusantium iste! 
                 Iure tenetur perspiciatis nesciunt delectus, corporis sit aut repudiandae nisi ad, molestiae maxime?</p>
         </section>
+
+        <!-- SPOTLIGHTS -->
         <section class="mainbox" id="spotSection">
-            <div id="spotlight1">Spotlight 1</div>
-            <div id="spotlight2">Spotlight 2</div>
-            <div id="spotlight3">Spotlight 3</div>
+            <div class="spots" id="spotlight1">Spotlight 1</div>
+            <div class="spots" id="spotlight2">Spotlight 2</div>
+            <div class="spots" id="spotlight3">Spotlight 3</div>
         </section>
         
     </main>
@@ -92,9 +109,10 @@
     <footer>
         <section id="footer1">
             <img id="logo" src="images/logo_mtl.png" alt="Company Logo">
-            <div id="Info">
+            <div id="info">
                 <div id="adress">7340 13e av - Quebec, Canada</div>
-                <div id="map">📍Location Map</div>
+                <br>
+                <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178787.32659260163!2d-73.85195575187622!3d45.55933749041145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20Quebec%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2spe!4v1667717129567!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
         </section>
 
