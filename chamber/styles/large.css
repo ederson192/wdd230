@@ -96,4 +96,11 @@
     /*--------------- END OF MAIN BODY -------------*/
 
 
+    /*--------- DISCOVER PAGE ----------------*/
+
+    .discover__photo img {
+        max-width: 800px;
+       
+    }
+
 }
