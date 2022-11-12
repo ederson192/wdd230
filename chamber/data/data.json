@@ -1,0 +1,98 @@
+[
+  {
+    "businessName": "MBD Montreal Business Development",
+    "address":"5255 Henri-Bourassa Blvd W #210, Saint-Laurent, Quebec H4R 2M6, Canadá",
+    "phone":"+1 (514) 904-1243",
+    "website": "https://mtlbdev.com/",
+    "logo":"https://mtlbdev.com/wp-content/uploads/2021/08/cropped-mbdlogo.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Korn Ferry",
+    "address":"1 Pl. Monseigneur Charbonneau #1160, Montreal, Quebec H3B 2A7, Canadá",
+    "phone":"+14388438424",
+    "website": "https://www.kornferry.com/",
+    "logo":"https://www.kornferry.com/content/experience-fragments/kornferry-v2/en/header/master/_jcr_content/root/header/mainHeader%20containerMax%20d-flex%20justify-space-between%20align-center/headerLogo.coreimg.svg/1618547833431/kf-logo.svg",
+    "status":"gold"
+  },
+  {
+    "businessName": "Joorney Business Plans",
+    "address":"511 Place d'Armes Office 363, Montreal, Quebec H2Y 2W7, Canadá",
+    "phone":"+18448298639",
+    "website": "https://www.joorney.com/",
+    "logo":"https://www.joorney.com/wp-content/themes/joorney-child/images/menu/megamenu-default-logo.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Chappuis Halder Inc.",
+    "address":"1501 McGill College Ave Bureau 2920, Montreal, Quebec H3A 3M8, Canadá",
+    "phone":"+15145161620",
+    "website": "https://chappuishalder.com/",
+    "logo":"https://chappuishalder.com/wp-content/uploads/2022/06/cropped-CHCo_Endorsed-CGi_Square-white-text-1-1-236x300.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Juniper",
+    "address":"1407 St Alexander St Suite 201, Montreal, Quebec H3A 2G3, Canadá",
+    "phone":"+14388204513",
+    "website": "https://jnper.com/",
+    "logo":"https://jnper.com/wp-content/uploads/2020/08/Juniper-logo.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "CLEARGOALS",
+    "address":"1 Place Ville-Marie, 3, Suite #400, Montréal, QC H3B 2E3, Canadá",
+    "phone":"+15149003000",
+    "website": "https://cleargoals.com/",
+    "logo":"https://cleargoals.com/wp-content/uploads/2021/12/Screenshot_11.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Duviter",
+    "address":"1 Pl. Monseigneur Charbonneau Bureau 4000, Montréal, QC H3B 4M4, Canadá",
+    "phone":"+15142996103",
+    "website": "https://duviter.com/",
+    "logo":"https://duviter.com/wp-content/uploads/2020/08/logo-top-duviter.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Dentist.Business",
+    "address":"500 Place d'Armes Suite 1800, Montreal, Quebec H2Y 2W2, Canadá",
+    "phone":"+14382593236",
+    "website": "https://dentist.business/",
+    "logo":"https://dentist.business/wp-content/themes/main-theme/assets/images/logo_blog.svg",
+    "status":"gold"
+  },
+  {
+    "businessName": "NSI Solution - Zoho Montréal",
+    "address":"3 Place Ville Marie suite 400, Montréal, QC H3B 2E3, Montreal, Quebec H3B 4W8, Canadá",
+    "phone":"+15149105587",
+    "website": "https://www.nsisolution.com/",
+    "logo":"https://www.nsisolution.com/nsiSOLUTION_logo_long-rouge250.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "R&D Partners",
+    "address":"1117 Saint-Catherine St W #610, Montreal, Quebec H3B 1H9, Canadá",
+    "phone":"+15148400938",
+    "website": "https://www.rdpartners.com/",
+    "logo":"https://www.rdpartners.com/wp-content/uploads/2021/12/RDP-logo-EN-blue.png",
+    "status":"gold"
+  },
+  {
+    "businessName": "Gazelle.ai",
+    "address":"416 Boul. de Maisonneuve Ouest #1000, Montreal, Quebec H3A 1L2, Canadá",
+    "phone":"+18339031344",
+    "website": "https://gazelle.ai/b2b-business-contact-list/",
+    "logo":"https://gazelle.ai/wp-content/uploads/2022/05/gazelle-business-database-provider.svg",
+    "status":"gold"
+  },
+  {
+    "businessName": "Bridge Eleven",
+    "address":"1 Place Ville-Marie, 3, Suite 400, Montreal, Quebec H3B 2E3, Canadá",
+    "phone":"+15143121806",
+    "website": "https://bridgeeleven.ca/",
+    "logo":"https://bridgeeleven.ca/wp-content/uploads/2020/04/Bridge_eleven-1-1024x449-1-e1620159895351.png",
+    "status":"gold"
+  } 
+]

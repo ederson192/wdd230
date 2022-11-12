@@ -14,6 +14,7 @@
   --secondary-color: #00171F ;
   --accent1-color: #003459;
   --accent2-color: #007EA7;
+  --accent3-color: #396E94;
   --gray: #808080;
 
   --heading-font: 'Open Sans', sans-serif;
@@ -563,4 +564,101 @@ div.plans-container__div:nth-child(1) {
 #thanks-container p {
     font-size: 1.1rem;
     padding: 1rem 0;
+}
+
+
+
+/*------------ DIRECTORY PAGE ------------*/
+
+#main__directory {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.directory__title {
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.directory__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 0 3rem;
+}
+
+.directory__buttons > button {
+    display: grid;
+    place-items: center;
+    padding: .3rem;
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: .3rem;
+}
+
+.dir__buttons.active {
+    background-color: rgba(40, 38, 97, 0.219);
+}
+
+.directory__buttons > button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.directory__buttons > button > img {
+    width: 80%;
+}
+
+/* Directory containers */
+
+.directory-cards {
+    margin: 1rem 1.5rem;
+    padding-bottom: 6rem;
+}
+
+.directory-cards section {
+    margin:  1rem 0;
+    padding: 1rem;
+    text-align: left;
+    /* transition: .5s; */
+}
+
+.directory-cards p, .directory-cards h2 {
+    padding: .3rem;
+}
+
+.grid-view > section {
+    border-radius: 3px;
+    border: 1px solid #D4D3D3;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.grid-view h2 {
+    display: none;
+}
+
+.grid-view > section > img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    padding: 0 1rem;
+    max-width: 80%;
+    text-align: center;
+}
+
+.list-view h2 {
+    font-size: 1.15rem;
+}
+
+.list-view img {
+    display: none;
+}
+
+.list-view > section:nth-child(odd) {
+    background-color: #396e9444;
 }

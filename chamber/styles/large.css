@@ -97,10 +97,15 @@
 
 
     /*--------- DISCOVER PAGE ----------------*/
-
+    
     .discover__photo img {
         max-width: 800px;
-       
+        
     }
+    
+    /*--------- DIRECTORY PAGE ----------------*/
 
+    .grid-view {
+        grid-template-columns: repeat(3,1fr);
+    }
 }
