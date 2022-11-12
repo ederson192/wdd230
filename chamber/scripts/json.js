@@ -24,7 +24,7 @@ buttons.forEach( button => {
 
 // Consuming JSON
 
-const URL = '../data/data.json';
+const URL = './data/data.json';
 const directoryCards = document.getElementById("directory__cards");
 
 changeView();
