@@ -64,22 +64,23 @@
         <section class="mainbox" id="weatherSection">
             <h2>Weather</h2>
             <div class="temperature"> 
-                <img src="images/weather.png" alt="weather logo" width="80">
-                <p>
-                   <span class="degrees"></span>
+                <img id="weather-icon" src="images/placeholder.jpg" alt="weather logo" width="80">
+                <p class="temp">
+                   <span id="temperature" class="degrees"></span>
+                   <span id="weather-description"></span>
                 </p>
             </div>
-
+            <hr>
             <div class="windspeed">
                 <p>wind speed</p>
                 <p>
-                    <span class="speed">5</span> 
+                    <span id="wind-speed" class="speed"></span> 
                     km/h
                 </p>
                 <p>Wind chill</p>
                 <p>
     
-                    <span class="wind">49.6</span>
+                    <span id="wind-chill" class="wind"></span>
                 </p>
             
             </div>

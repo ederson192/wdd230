@@ -265,6 +265,18 @@ header #currentDate {
     gap: 1.5rem;
 }
 
+#weatherSection > hr {
+    height: 2px;
+    width: 100%;
+    background-color: var(--accent1-color);
+    border: none;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+
 .windspeed {
     display: flex;
     flex-flow: column nowrap;
