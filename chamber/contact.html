@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <title>Chamber of Commerce of Montreal</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav" class="open">
+      <a href="./index.html">
+        <div class="logo-cnt"><img id="logo" src="images/logo_mtl.png" alt="Company logo"></div>
+      </a>
+
+      <div class="options">
+        <ul id="social" class="open">
+          <li>
+            <a href="https://twitter.com" target="_blank"><img class="icon" src="images/twitter.png" alt="twitter"></a>
+            <a href="https://facebook.com" target="_blank"><img class="icon" src="images/facebook.png"
+                alt="facebook"></a>
+          </li>
+          <li class="burguer"><img id="menu" src="./images/bars-solid.svg" alt="asd"></li>
+        </ul>
+
+        <ul class="menu-options">
+          <li id="pages" class="pages-options">
+            <ul>
+              <li><a href="./discover.html">Discover</a></li>
+              <li><a href="./directory.html">Directory</a></li>
+              <li><a href="./join.html">Join</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div id="currentDate"></div>
+  </header>
+
+  <main>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-info-detail">
+          <div>
+            <h2>Contact Us</h2>
+            <h3>The Chamber of Commerce of Montreal</h3>
+            <p>7340 13e av - Quebec, Canada</p>
+            <br>
+            <p>+(1) 403-2658-256</p>
+          </div>
+        </div>
+        <div class="contact-img">
+          <img src="./images/chamber.jpg" alt="Camara de Comercio">
+        </div>
+      </div>
+    </div>
+    <div class="get-in-touch">
+      <h2>Get in Touch</h2>
+    </div>
+    <form id="contact-form" method="get" action="thankyou.html">
+      <fieldset class="contact-fieldset-1">
+        <label class="contact_form__label">First Name<span>*</span> <input class="input-text" type="text" name="fname"
+            autofocus required></label>
+        <label class="contact_form__label">Last Name<span>*</span> <input class="input-text" type="text" name="lname"
+            required></label>
+        <label class="contact_form__label">Email<span>*</span> <input class="input-text" type="email" name="email"
+            placeholder="test@yahoo.com" required></label>
+        <label class="contact_form__label">Business Name<span>*</span> <input class="input-text" type="text"
+            name="business" required></label>
+      </fieldset>
+      <fieldset class="contact-fieldset-2">
+        <label>Are you a Chamber Member?</label>
+        <label class="contact_form__member-label"><input class="input-radio" type="radio" name="membership"
+            value="npmember"> Yes</label>
+        <label class="contact_form__member-label"><input class="input-radio" type="radio" name="membership"
+            value="bronzemember"> No</label>
+        <label class="contact_form__member-label"><input class="input-radio" type="radio" name="membership"
+            value="silvermember"> Not sure</label>
+      </fieldset>
+      <fieldset class="contact-fieldset-3">
+        <!-- <label>What questions do you have for the Greatest Chamber?</label> -->
+        <label class="contact_form__label">Business Description <textarea class="text-area" name="business-desc"
+            cols="30" rows="10"></textarea></label>
+      </fieldset>
+      <input class="input-submit" type="submit" value="Contact Us">
+    </form>
+  </main>
+
+  <footer>
+    <section id="footer1">
+      <img id="logo" src="images/logo_mtl.png" alt="Company Logo">
+      <div id="info">
+        <div id="adress">7340 13e av - Quebec, Canada</div>
+        <br>
+        <div id="map"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178787.32659260163!2d-73.85195575187622!3d45.55933749041145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20Quebec%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2spe!4v1667717129567!5m2!1ses-419!2spe"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </section>
+
+    <section id="footer2">
+      ⓒ<span id="year"></span>
+      Montreal Chamber | Ederson Alejandro | WDD 230 Project | Last Modification: <span id="lastModified"></span>
+    </section>
+
+  </footer>
+
+  <script src="scripts/main.js"></script>
+  <script src="./scripts/json.js" type="module"></script>
+  <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>

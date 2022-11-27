@@ -26,16 +26,26 @@ buttons.forEach( button => {
 
 const URL = './data/data.json';
 const directoryCards = document.getElementById("directory__cards");
+const spots = [...document.querySelectorAll(".spots")];
 
-changeView();
 
 const data = await fetch(URL)
-  .then(response => response.json())
-  .then(json => json);
+.then(response => response.json())
+.then(json => json);
 
 const cards = createAllCards(data);
 
-insertCardsInDOM(cards);
+if(buttons.length > 0) {
+  changeView();
+  window.onresize = () => changeView();
+  insertCardsInDOM(cards);
+}
+
+// create spots
+
+if(spots.length > 0) {
+  createSpots(data);
+}
 
 // buttons 
 
@@ -51,7 +61,10 @@ buttons.forEach( button => {
 
 // Change the view when needed
 
-window.onresize = () => changeView();
+
+if(buttons.length > 0) {
+  window.onresize = () => changeView();
+}
 
 
 
@@ -114,3 +127,54 @@ function createCard(business) {
 
   return card;
 };
+
+function createSpots(data) {
+
+  // if(spots != null) {
+  let newSpots = data.filter(element => element.status == "gold" || element.status == "silver");
+  console.log(newSpots)
+  spots.forEach((element) => {
+      // pick a random business
+      let index = Math.floor(Math.random() * newSpots.length);
+      console.log(index);
+      let spot = newSpots.splice(index, 1)[0];
+      console.log(spot);
+  
+      // create the elements for the spot
+      // const div = document.createElement('div');
+
+      element.innerHTML = `
+  <h2>${spot.businessName}</h2>
+  <div>
+  <img src="${spot.logo}" alt="logo of ${spot.businessName}" loading="lazy">
+  </div>
+  <p>${spot.phone}</p>
+  <p>${spot.address}</p>
+      `
+      
+      // let h2 = document.createElement('h2');
+      // let img = document.createElement('img');
+      // let phone = document.createElement('p');
+      // let address = document.createElement('p');
+  
+      // //set the title
+      // h2.textContent = spot.businessName;
+  
+      // // build the image
+      // img.classList.add("spot-img");
+      // img.setAttribute('src',spot.logo);
+      // img.setAttribute('alt', `logo of ${spot.businessName}`);
+      // img.setAttribute('loading','lazy');
+  
+      // // set the descripcion phone and adress
+      // phone.textContent = spot.phone;
+      // address.textContent = spot.address;
+  
+      // div.appendChild(h2);
+      // div.appendChild(img);
+      // div.appendChild(phone);
+      // div.appendChild(address);
+      // element.appendChild(div);
+  })
+  // }
+}

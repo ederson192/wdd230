@@ -84,7 +84,7 @@
     }
 
     .spots:nth-child(3) {
-    display: block;
+    display: flex;
     }
     
     #joinSection {
@@ -107,5 +107,41 @@
 
     .grid-view {
         grid-template-columns: repeat(3,1fr);
+    }
+
+    /*----------- Contact Page -------------*/
+
+    .contact-info {
+        flex-direction: row;
+    }
+
+    .contact-info-detail {
+        position: static;
+        order: 1;
+        width: 47%;
+        z-index: 1;
+        padding-right: 8%;
+        margin-right: -15%;
+    }
+
+    .contact-info-detail h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info-detail div {
+        margin-right: 4rem;
+    }
+
+    .contact-info-detail div p:last-child {
+        margin: 1.5rem 0;
+    }
+
+    .contact-img {
+        position: relative;
+        bottom: 3rem;
+        width: 53%;
+        order: 2;
+        z-index: 2;
     }
 }

@@ -106,4 +106,23 @@
         max-height: 5rem;
     }
 
+    /*------------- Contact Page --------------*/
+
+    .contact-fieldset-1 {
+        display: grid;
+        gap: 0 1rem;
+        grid-template-areas: 
+        "a b"
+        "c c"
+        "d d"
+        ;
+    }
+
+    .contact-fieldset-1 .contact_form__label:nth-child(3) {
+        grid-area: c;
+    }
+    .contact-fieldset-1 .contact_form__label:nth-child(4) {
+        grid-area: d;
+    }
+
 }

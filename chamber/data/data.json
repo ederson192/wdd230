@@ -13,7 +13,7 @@
     "phone":"+14388438424",
     "website": "https://www.kornferry.com/",
     "logo":"https://www.kornferry.com/content/experience-fragments/kornferry-v2/en/header/master/_jcr_content/root/header/mainHeader%20containerMax%20d-flex%20justify-space-between%20align-center/headerLogo.coreimg.svg/1618547833431/kf-logo.svg",
-    "status":"gold"
+    "status":"silver"
   },
   {
     "businessName": "Joorney Business Plans",
@@ -21,7 +21,7 @@
     "phone":"+18448298639",
     "website": "https://www.joorney.com/",
     "logo":"https://www.joorney.com/wp-content/themes/joorney-child/images/menu/megamenu-default-logo.png",
-    "status":"gold"
+    "status":"silver"
   },
   {
     "businessName": "Chappuis Halder Inc.",
@@ -37,7 +37,7 @@
     "phone":"+14388204513",
     "website": "https://jnper.com/",
     "logo":"https://jnper.com/wp-content/uploads/2020/08/Juniper-logo.png",
-    "status":"gold"
+    "status":"bronze"
   },
   {
     "businessName": "CLEARGOALS",
@@ -45,7 +45,7 @@
     "phone":"+15149003000",
     "website": "https://cleargoals.com/",
     "logo":"https://cleargoals.com/wp-content/uploads/2021/12/Screenshot_11.png",
-    "status":"gold"
+    "status":"silver"
   },
   {
     "businessName": "Duviter",
@@ -53,7 +53,7 @@
     "phone":"+15142996103",
     "website": "https://duviter.com/",
     "logo":"https://duviter.com/wp-content/uploads/2020/08/logo-top-duviter.png",
-    "status":"gold"
+    "status":"bronze"
   },
   {
     "businessName": "Dentist.Business",
@@ -61,7 +61,7 @@
     "phone":"+14382593236",
     "website": "https://dentist.business/",
     "logo":"https://dentist.business/wp-content/themes/main-theme/assets/images/logo_blog.svg",
-    "status":"gold"
+    "status":"bronze"
   },
   {
     "businessName": "NSI Solution - Zoho Montréal",
@@ -77,7 +77,7 @@
     "phone":"+15148400938",
     "website": "https://www.rdpartners.com/",
     "logo":"https://www.rdpartners.com/wp-content/uploads/2021/12/RDP-logo-EN-blue.png",
-    "status":"gold"
+    "status":"bronze"
   },
   {
     "businessName": "Gazelle.ai",
@@ -93,6 +93,6 @@
     "phone":"+15143121806",
     "website": "https://bridgeeleven.ca/",
     "logo":"https://bridgeeleven.ca/wp-content/uploads/2020/04/Bridge_eleven-1-1024x449-1-e1620159895351.png",
-    "status":"gold"
+    "status":"silver"
   } 
 ]
