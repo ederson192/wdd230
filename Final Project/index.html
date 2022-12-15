@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./styles/medium.css" media='screen and (min-width:40rem)'>
+  <link rel="stylesheet" type="text/css" href="./styles/large.css" media='screen and (min-width:64rem)'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <script src="https://kit.fontawesome.com/9fa9845ee1.js" crossorigin="anonymous"></script>
+
+  <title>Bountiful Foods | Home</title>
+</head>
+<body>
+  <header class="head">
+    <nav class="nav">
+      <h1 class="nav__title">Bountiful Foods</h1>
+      <ul class="nav__list" id="nav_list">
+        <li class="nav__list_item"><a class="list_link list_item-active" href="#">Home</a></li>
+        <li class="nav__list_item"><a class="list_link" href="./freshpage.html">Fresh Page</a></li>
+        <li class="nav__list_item"><a class="list_link" href="./aboutus.html">About Us</a></li>
+      </ul>
+      <a href="#" class="nav__menu nav_menu-open"><span class="material-symbols-outlined">menu</span></a>
+      <a href="#" class="nav__menu nav_menu-closed nav_menu-hide"><span class="material-symbols-outlined">close</span></a>
+    </nav>
+    <h1 class="head__title">The best Products for You</h1>
+    <div class="hero">
+      <img data-src="./images/orange.webp" src="./images/place_1.webp" alt="orange">
+    </div>
+  </header>
+  <main class="main__home">
+    <section class="card">
+      <article class="card_img bg-yellow">
+        <img src="./images/place_1.webp" data-src="./images/tomato-lg.webp" alt="tomato-lg">
+      </article>
+      <article class="card_desc">
+        <h2>Bountiful Foods</h2>
+        <p>
+          We are Bountiful Foods, a company that sells fresh fruits and produce directly from local farmers. Our focus is on organic products and we offer a wide range of options. We also provide convenient home delivery services. Our goal is to support small farmers and promote sustainable agriculture.
+        </p>
+        <a href="./freshpage.html">Create a Juice</a>
+      </article>
+    </section>
+
+    <section class="card">
+      <article class="card_img bg-green">
+        <img src="./images/place_1.webp" data-src="./images/cherry-mid.webp" alt="tomato-lg">
+      </article>
+      <article class="card_desc">
+        <h2>The best products to you</h2>
+        <p>
+          As a company, we offer convenient home delivery services for our fresh fruits and produce. In addition, we also offer a range of fresh juice options made from our produce. Our goal is to make it easy for customers to access healthy, locally-sourced foods.
+        </p>
+        <a href="./freshpage.html">Create a Juice</a>
+      </article>
+    </section>
+    <section class="card">
+      <article class="card_img bg-light-blue">
+        <img data-src="./images/juice-mid.webp" src="./images/place_1.webp" alt="tomato-lg">
+      </article>
+      <article class="card_desc">
+        <h2>Juices</h2>
+        <p class="card_juices">
+          During your visits at Bountiful Foods WebPage, you have made:
+          <span id="total_juices">0</span>
+          Juices!
+        </p>
+        <a href="./freshpage.html">Create a Juice</a>
+      </article>
+    </section>
+    <section class="card__area">
+      <picture>
+        <img class="card__area_img" src="./images/place.webp" data-src="./images/golden-bridge-lg.webp" alt="golden Bridge">
+      </picture>
+      <div class="card__area_desc">
+        <h2>Our Areas</h2>
+        <p>We are based in Southern California and serve the local community, including San Diego, Orange, Catalina, and Los Angeles. As a company, we are committed to supporting small farmers and promoting sustainable agriculture in the region. Our convenient home delivery services make it easy for customers to access fresh, locally-sourced produce and fruits.</p>
+      </div>
+    </section>
+
+    <section class="homeCords bg-white">
+      <article class="homeCords__card">
+        <h2>San Diego</h2>
+        <p>We serve the San Diego area, offering a wide range of organic produce and fruits. Our convenient home delivery makes it easy to access healthy, locally-sourced foods.</p>
+      </article>
+      <article class="homeCords__card">
+        <h2>Los Angeles</h2>
+        <p>We serve the Los Angeles area, offering fresh produce and fruits to tourists and locals alike. Our convenient home delivery makes it easy to access healthy, locally-sourced foods while exploring the city.</p>
+      </article>
+      <article class="homeCords__card">
+        <h2>Orange</h2>
+        <p>We serve the Orange area, offering express juice services made from fresh, locally-sourced produce. Our convenient home delivery makes it easy to access healthy, refreshing drinks.</p>
+      </article>
+      <article class="homeCords__card">
+        <h2>Catalina</h2>
+        <p>We recently expanded to serve the Catalina area, offering a wide range of fresh, organic produce and fruits.We are excited to be able to support the local community and promote sustainable agriculture in the area.</p>
+      </article>
+    </section>
+    <div class="weather">
+      <article class="weather_current">
+        <div class="weather_current_info" id="weather_current_info">
+
+        </div>
+        <div class="weather_current_icon" id="weather_current_icon">
+          
+        </div>
+      </article>
+      <div class="line"></div>
+      <article class="weather_forecast" id="forecastCard">
+        
+      </article>
+    </div>
+  </main>
+  <footer class="footer" id="footer">
+    <h2>Bountiful Foods</h2>
+    <nav>
+      <ul class="footer__nav">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="./freshpage.html">Fresh Page</a>
+        </li>
+        <li>
+          <a href="./aboutus.html">About Us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social">
+      <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+    </div>
+    <div class="last-cnt">
+      &copy;<span id="year"></span>
+      Bountiful Foods | Ederson Alejandro | WDD 230 Project | Last Modification: <span id="lastModified"></span>
+    </div>
+  </footer>
+  <script src="./scripts/windchill.js" type="module"></script>
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

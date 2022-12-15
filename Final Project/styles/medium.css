@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+}
+
+.card > article {
+  width: 50%;
+}
+
+.card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.card__area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: initial;
+  justify-items: center;
+  padding: 4rem 0;
+}
+
+.card__area_desc {
+  width: 70%;
+}
+
+.card_juices {
+  gap: 1rem;
+}
+
+.homeCords {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  justify-content: center;
+}
+
+.line {
+  height: 100%;
+  width: 2px;  
+}
+
+.weather_forecast {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__nav {
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.social {
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* ABOUT US PAGE */
+
+.about_contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 4rem;
+  gap: 3rem;
+}
+
+.about_contact > h2 {
+  grid-column: 1 / -1;
+}

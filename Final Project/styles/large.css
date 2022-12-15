@@ -1,0 +1,76 @@
+.nav {
+  padding: 0 2rem;
+}
+
+.nav__menu {
+  display: none;
+}
+
+.nav__list {
+  height: fit-content;
+  grid-column: -1 / -2;
+  grid-row: -1 / 1;
+  flex-flow: row nowrap;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.list_link {
+  display: block;
+  color: var(--white);
+  padding: .5rem 1.5rem;
+
+}
+
+.list_item-active {
+  color: var(--ligth-blue);
+  background-color: var(--white);
+  border-radius: 25px;
+}
+
+.homeCords {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.homeCords__card {
+  aspect-ratio: inherit;
+  width: 65%;
+  padding: 4rem 0;
+  justify-content: start;
+}
+
+.weather_current {
+  justify-content: center;
+}
+
+.weather_current > div {
+  height: 100%;
+}
+
+.weather_current_icon > img {
+  max-width: 150px;
+}
+
+.answer_sended {
+  width: 60%;
+}
+
+/* ABOUT US PAGE */
+
+.about_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.about_card img{
+  width: 90%;
+}
+
+.about_contact {
+  grid-template-columns: repeat(4,1fr);
+}
+
+.about_map {
+  aspect-ratio: inherit;
+}
